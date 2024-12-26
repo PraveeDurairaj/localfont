@@ -10,6 +10,7 @@ export const onRenderBody = ({ setHeadComponents }) => {
                    font-weight: normal;
                     font-style: normal;
                     src: url('src/fonts/PlusJakartaSans-VariableFont_wght.ttf') format('truetype');
+                    font-display: swap;
                        }
                     body{
                     font-family: "Plus Jakarta Sans", serif;
