@@ -13,6 +13,7 @@
   font-family: 'Plus Jakarta Sans';
   font-style: normal;
   src: url(/src/fonts/PlusJakartaSans-VariableFont_wght.ttf) format("woff2");
+  font-display: fallback;
 }
 /* 
 body{
