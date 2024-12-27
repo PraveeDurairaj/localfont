@@ -1,22 +1,12 @@
-/* 
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+PhagsPa&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap'); */
-
-.homeContainer{
-    display: flex;
-    padding: 50px;
-    width: 100%;
-    justify-content: center;
-    align-items: center;
-}
 
 @font-face {
-  font-family: 'Plus Jakarta Sans';
+  font-family: "Plus Jakarta Sans",serif;
+  src: url('../fonts/PlusJakartaSans-VariableFont_wght.ttf') format('ttf');
+  font-weight: normal;
   font-style: normal;
-  src: url(/src/fonts/PlusJakartaSans-VariableFont_wght.ttf) format("woff2");
-  font-display: fallback;
+  font-display: swap;
 }
-/* 
-body{
-    font-family: 'Plus Jakarta Sans';
-    font-style: normal;   
-} */
+
+body {
+  font-family: "Plus Jakarta Sans",serif;
+}
